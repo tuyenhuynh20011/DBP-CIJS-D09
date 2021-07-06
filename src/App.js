@@ -1,15 +1,15 @@
 
-import {Navigation} from "./components/navigation";
+import {SignIn} from "./components/SignIn";
 
 
 
-function App() {
+function SignIn() {
   return (
   
     <div className="App">
-      <Navigation/>
+      <SignIn/>
     </div>  
     );
 }
 
-export default App;
+export default SignIn;

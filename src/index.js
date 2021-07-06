@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import './SignInform/Signin.css'
 import App from './App';
-import Signin from './SignInform/Sigin';
+
+import  SignIn from "./components/SignIn"
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Signin />
+    <SignIn />
   </React.StrictMode>,
   document.getElementById('root')
 );
